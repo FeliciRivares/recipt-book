@@ -1,0 +1,23 @@
+.button{
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    max-width: 30%;
+    transition: all 0.3s ease 0s;
+    margin: 0 auto;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.button:hover{
+    background-color: #4444;
+}
+.button:active{
+    box-shadow: 1px 2px 3px;
+}
