@@ -1,11 +1,9 @@
-import './App.css';
-import style from './Recipe.module.css';
-import { RecipeItem } from './module/RecipeItem/RecipeItem';
+import {RecipeItem} from '../RecipeItem/RecipeItem'
+import style from './Recipe.module.css'
 
-const App = () => {
-  return (
-    <div className="App">
-      <div className={style.container}>
+export const Recipe = () => {
+    return (
+        <div className={style.container}>
         <h1>Recipt book</h1>
         <ul className={style.reciptUL}>
           <RecipeItem recipe={{ 
@@ -40,8 +38,5 @@ const App = () => {
            }}/>
         </ul>
       </div>
-    </div>
-  );
-};
-
-export default App;
+    )
+}
